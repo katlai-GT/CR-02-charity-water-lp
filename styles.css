@@ -78,7 +78,7 @@ body {
 .hero-media .image {
   position:absolute;
   inset:0;
-  background:url("https://images.unsplash.com/photo-1543950580-8b9f31781f3e?q=80&w=1600&auto=format&fit=crop") center/cover no-repeat;
+  background:url("/workspaces/CR-02-charity-water-lp/img/4604_Ethiopia_2019_CG-.jpg") center/cover no-repeat;
 }
 .credit {
   position:absolute;
