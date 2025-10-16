@@ -75,10 +75,15 @@ body {
 .hero-media {
   position:relative;
 }
-.hero-media .image {
+.hero-media img {
   position:absolute;
-  inset:0;
-  background:url("/workspaces/CR-02-charity-water-lp/img/4604_Ethiopia_2019_CG-.jpg") center/cover no-repeat;
+  top:50%; left:50%;
+  transform:translate(-50%,-50%);
+  width:80%;
+  height:auto;
+  min-height:60vh;
+  border-radius:16px;
+  box-shadow:var(--shadow);
 }
 .credit {
   position:absolute;
